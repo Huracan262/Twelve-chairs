@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 375px;
+
+  font-family: 'GolosText', 'Times New Roman', sans-serif;
+  color: var(--font-color-main);
+
+  background-color: #ffffff;
+}

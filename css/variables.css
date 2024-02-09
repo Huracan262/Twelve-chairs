@@ -1,0 +1,12 @@
+:root {
+  --font-color-main: #313131;
+  --font-color-red: #F54932;
+  --font-color-blue: #3057A2;
+  --font-color-yellow: #fbce51;
+  --background-color: #E9DED4;
+
+  --mobile-width: 375px;
+  --tablet-width: 768px;
+  --desktop-width: 1366px;
+  --desktop-wrapper: 1222px;
+}

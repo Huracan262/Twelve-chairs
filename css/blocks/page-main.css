@@ -1,0 +1,37 @@
+.page-main {
+  /* Пока пусто */
+}
+
+.page-main__wrapper {
+  padding: 48px 20px;
+}
+
+.support {
+  margin-bottom: 121px;
+}
+
+.development {
+  margin-bottom: 120px;
+}
+
+@media (min-width: 768px) {
+  .page-main__wrapper {
+    padding: 0 72px;
+  }
+
+  .support {
+    margin-bottom: 159px;
+  }
+
+  .development {
+    margin-bottom: 172px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .page-main__wrapper {
+    padding: 0;
+    width: 1222px;
+    margin: 0 auto;
+  }
+}

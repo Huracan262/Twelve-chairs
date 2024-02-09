@@ -1,0 +1,19 @@
+@import url("fonts.css"); /* Шрифты */
+@import url("variables.css"); /* Переменные */
+@import url("global.css"); /* Глобальные стили */
+
+
+
+/* Блоки */
+@import url("blocks/page-header.css"); /* <header> */
+  @import url("blocks/header-content.css"); /* Header-content */
+
+@import url("blocks/page-main.css"); /* <main> */
+  @import url("blocks/support.css"); /* Секция support */
+  @import url("blocks/development.css"); /* Секция development */
+  @import url("blocks/players.css"); /* Секция players */
+
+@import url("blocks/page-footer.css"); /* <footer> */
+
+@import url("blocks/running-line.css"); /* Бегущая строка */
+
