@@ -388,6 +388,7 @@ body {
   height: 38px;
   position: absolute;
   left: 0;
+  z-index: 1;
 
   overflow: hidden;
   background-color: #F54932;
@@ -597,7 +598,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .support__event--ostap-bender picture {
   width: 375px;
   height: auto;
@@ -609,6 +609,11 @@ body {
   color: var(--font-color-red)
 }
 
+@media (max-width: 768px) {
+  .support__event--ostap-bender {
+    overflow: hidden;
+  }
+}
 
 
 @media (min-width: 768px) {
@@ -1184,9 +1189,15 @@ body {
   line-height: 19.2px;
   font-weight: 500;
   color: var(--font-color-blue);
+  text-decoration: none;
 
   border: 1px solid var(--font-color-blue);
   border-radius: 62px;
+}
+
+.players__button:hover {
+  color: #ffffff;
+  background-color: var(--font-color-blue);
 }
 
 .players__buttons {
