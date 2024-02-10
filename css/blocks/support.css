@@ -195,6 +195,10 @@
     margin-left: -28px;
   }
 
+  .support__event--ostap-bender img {
+    width: 100%;
+  }
+
   .event__table {
     max-width: 704px;
     margin: -6px 0 0;
